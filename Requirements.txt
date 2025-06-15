@@ -2,4 +2,6 @@ streamlit
 pandas
 streamlit-echarts
 streamlit-lottie
+altair
 matplotlib
+streamlit-card
