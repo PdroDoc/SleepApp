@@ -14,13 +14,14 @@ st_lottie(lottie_json, height=300, key="cat")
 
 
 st.write("""
-#Data Vizualization. Explorando dados brutos de sono.  
 
-Bem-vindo a uma visualização interativa dos meus dados de sono, registrados pelo meu relógio **Garmin Forerunner** ao longo das últimas semanas. Este projeto é mais do que uma simples análise de dados: é um convite para explorar a presença e a atenção plena no ritmo natural do descanso, inspirado pelos ensinamentos de Jiddu Krishnamurti.
+# Data Vizualization. Explorando dados brutos de sono.  
+
+Bem-vindo a uma visualização interativa dos meus dados de sono, registrados pelo meu relógio **Garmin Forerunner** ao longo das últimas semanas. 
 
 ## Sobre o Projeto
 
-Utilizando dados brutos extraídos do meu Garmin Forerunner, que monitora padrões de sono (ou a ausência deles), criei um pipeline em Python para processar e organizar essas informações em uma visualização clara e interativa. Este app, construído com **Streamlit**, apresenta métricas como duração do sono, fases do sono (leve, profundo e REM) e interrupções, oferecendo uma janela para entender melhor os hábitos de descanso.
+Utilizando dados brutos extraídos do meu Garmin Forerunner, que monitora padrões de sono (ou a ausência deles), criei um pipeline em Python para processar e organizar essas informações em uma visualização clara e interativa. Este app, construído com **Streamlit**
 
 ## Como Funciona
 
