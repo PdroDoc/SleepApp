@@ -13,10 +13,28 @@ with open("cat.json") as f:
 st_lottie(lottie_json, height=300, key="cat")
 
 
-#st.markdown("Exemplo de App para vizualização de dados.")
-st.write("""Aqui esta um exemplo de app, para vizualização de dados. 
-        Neste, uso dados bruto obtidos pelo meu relógio garmin forerunner referente ao meu sono (ou a falta dele)""")
-st.warning("Dados das últimas 4 Semanas")
+st.write("""
+#Data Vizualization. Explorando dados brutos de sono.  
+
+Bem-vindo a uma visualização interativa dos meus dados de sono, registrados pelo meu relógio **Garmin Forerunner** ao longo das últimas semanas. Este projeto é mais do que uma simples análise de dados: é um convite para explorar a presença e a atenção plena no ritmo natural do descanso, inspirado pelos ensinamentos de Jiddu Krishnamurti.
+
+## Sobre o Projeto
+
+Utilizando dados brutos extraídos do meu Garmin Forerunner, que monitora padrões de sono (ou a ausência deles), criei um pipeline em Python para processar e organizar essas informações em uma visualização clara e interativa. Este app, construído com **Streamlit**, apresenta métricas como duração do sono, fases do sono (leve, profundo e REM) e interrupções, oferecendo uma janela para entender melhor os hábitos de descanso.
+
+## Como Funciona
+
+1. **Coleta de Dados**: Extração de registros brutos de sono diretamente do Garmin Forerunner, incluindo tempo total de sono, fases e qualidade.
+2. **Processamento**: Scripts em Python transformam os dados em formatos acessíveis, como tabelas e gráficos interativos.
+3. **Visualização**: Uso do Streamlit para criar uma interface dinâmica, permitindo explorar os padrões de sono de forma intuitiva.
+
+
+---
+
+""")
+
+st.warning("Dados das últimas 4 semanas")
+
 
 col = st.columns((4, 4), gap='medium')
 
